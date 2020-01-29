@@ -1,0 +1,14 @@
+.component-app {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 80%;
+  /* margin-top: 20vh; */
+}
+#root{
+  position: relative;
+    left: 30%;
+    top: 10%;
+  height: 80%;
+    width: 40%;
+}
