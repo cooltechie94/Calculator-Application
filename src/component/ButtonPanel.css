@@ -1,5 +1,6 @@
 .component-button-panel {
-  background-color: #858694;
+  /* background-color: white; */
+  padding: 2vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

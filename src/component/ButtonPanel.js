@@ -17,7 +17,7 @@ export default class ButtonPanel extends React.Component {
     return (
       <div className="component-button-panel">
         <div>
-          <Button name="AC" clickHandler={this.handleClick} />
+          <Button name="C" clickHandler={this.handleClick} />
           <Button name="+/-" clickHandler={this.handleClick} />
           <Button name="%" clickHandler={this.handleClick} />
           <Button name="÷" clickHandler={this.handleClick} orange />
@@ -41,9 +41,9 @@ export default class ButtonPanel extends React.Component {
           <Button name="+" clickHandler={this.handleClick} orange />
         </div>
         <div>
-          <Button name="0" clickHandler={this.handleClick} wide />
+          <Button name="0" clickHandler={this.handleClick}  />
           <Button name="." clickHandler={this.handleClick} />
-          <Button name="=" clickHandler={this.handleClick} orange />
+          <Button className="equalsButton" name="=" clickHandler={this.handleClick} wide orange  equalsButton />
         </div>
       </div>
     );

@@ -2,7 +2,10 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 80%;
+  height: 85%;
+  width: 30vw;
+  background-color: #F8F8F8;
+    border-radius: 5%;
   /* margin-top: 20vh; */
 }
 #root{

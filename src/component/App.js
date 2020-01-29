@@ -15,16 +15,17 @@ class App extends React.Component {
   handleClick = buttonName => {
     // if(buttonName=='=')
       // this.props.printSum();
-    this.setState(calculate(this.state, buttonName),()=>{
-      if(buttonName=='=')
-      this.props.printSum(this.state.total);
-    });
+    this.setState(calculate(this.state, buttonName)
+    // ,()=>{
+    //   if(buttonName=='=')
+    //   this.props.printSum(this.state.total);}
+    );
   };
 
   render() {
     return (
       <div className="component-app">
-        <Display value={this.state.next || this.props.updatedTotal || "0"} />
+        <Display value={this.state.next || this.state.total || "0"} />
         <ButtonPanel clickHandler={this.handleClick} />
       </div>
     );
